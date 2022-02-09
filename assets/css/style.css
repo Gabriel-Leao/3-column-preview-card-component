@@ -44,9 +44,14 @@ h1 {
     height: 40px;
     width: 150px;
     text-align: center;
-    background-color: var(--Transparent-white);
+    background-color: var(--Very-light-gray);
+    border: 3px solid var(--Very-light-gray);
     border-radius: 50px;
     margin-top: 10vh;
+}
+
+.button:hover {
+    background-color:hsl(0, 0%, 95%, 0);
 }
 
 .sedans-container {
@@ -67,6 +72,10 @@ h1 {
     text-decoration: none;
 }
 
+#sedan-button:hover a {
+    color: var(--Very-light-gray);
+}
+
 .suvs-container {
     background-color: var(--Dark-cyan);
     grid-column: 2;
@@ -84,6 +93,10 @@ h1 {
     text-decoration: none;
 }
 
+#suvs-button:hover a {
+    color: var(--Very-light-gray);
+}
+
 .luxury-container {
     background-color: var(--Very-dark-cyan);
     grid-column: 3;
@@ -99,6 +112,10 @@ h1 {
 #luxury-button a {
     color: var(--Very-dark-cyan);
     text-decoration: none;
+}
+
+#luxury-button:hover a {
+    color: var(--Very-light-gray);
 }
 
 .attribution { 
