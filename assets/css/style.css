@@ -48,11 +48,21 @@ h1 {
     border: 3px solid var(--Very-light-gray);
     border-radius: 50px;
     margin-top: 10vh;
+    text-decoration: none;
 }
 
 .button:hover {
     background-color:hsl(0, 0%, 95%, 0);
     transition: 0.3s ease-in-out;
+}
+
+.grid-layout {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3 1fr);
+    margin-top: 20vh;
+    max-width: 48rem;
+    max-height: 70vh;
 }
 
 .sedans-container {
@@ -61,20 +71,19 @@ h1 {
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
-}
-
-.sedans-content {
     padding: 50px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
 }
 
 #sedan-button a {
     color: var(--Bright-orange);
     text-decoration: none;
-    transition: 0.3s ease-in-out;
 }
 
 #sedan-button:hover a {
     color: var(--Very-light-gray);
+    transition: 0.3s ease-in-out;
 }
 
 .suvs-container {
@@ -83,20 +92,17 @@ h1 {
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
-}
-
-.suvs-content {
     padding: 50px;
 }
 
 #suvs-button a {
     color: var(--Dark-cyan);
     text-decoration: none;
-    transition: 0.3s ease-in-out;
 }
 
 #suvs-button:hover a {
     color: var(--Very-light-gray);
+    transition: 0.3s ease-in-out;
 }
 
 .luxury-container {
@@ -105,20 +111,19 @@ h1 {
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
-}
-
-.luxury-content {
     padding: 50px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
 }
 
 #luxury-button a {
     color: var(--Very-dark-cyan);
     text-decoration: none;
-    transition: 0.3s ease-in-out;
 }
 
 #luxury-button:hover a {
     color: var(--Very-light-gray);
+    transition: 0.3s ease-in-out;
 }
 
 .attribution { 
