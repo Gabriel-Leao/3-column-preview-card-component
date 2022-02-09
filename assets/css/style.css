@@ -52,6 +52,7 @@ h1 {
 
 .button:hover {
     background-color:hsl(0, 0%, 95%, 0);
+    transition: 0.3s ease-in-out;
 }
 
 .sedans-container {
@@ -60,7 +61,6 @@ h1 {
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
-    display: flex;
 }
 
 .sedans-content {
@@ -70,6 +70,7 @@ h1 {
 #sedan-button a {
     color: var(--Bright-orange);
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 #sedan-button:hover a {
@@ -91,6 +92,7 @@ h1 {
 #suvs-button a {
     color: var(--Dark-cyan);
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 #suvs-button:hover a {
@@ -112,6 +114,7 @@ h1 {
 #luxury-button a {
     color: var(--Very-dark-cyan);
     text-decoration: none;
+    transition: 0.3s ease-in-out;
 }
 
 #luxury-button:hover a {
