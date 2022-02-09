@@ -15,8 +15,7 @@
 body {
     margin: 0 auto;
     font-family: 'Big Shoulders Display', cursive;
-    font-weight: 700;
-    font-size: 15px;
+    font-weight: 400;
     color: var(--Transparent-white);
 }
 
@@ -27,38 +26,52 @@ img {
 
 h1 {
     font-family: 'Lexend Deca', sans-serif;
-    font-weight: 400;
+    font-weight: 700;
     color: var(--Very-light-gray);
-}
-
-.grid-layout {
-    margin: 0 auto;
-    margin-top: 20vh;
-    max-width: 45rem;
-    max-height: 50vh;
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
 }
 
 .sedans-container {
     background-color: var(--Bright-orange);
     grid-column: 1;
-    height: 50vh;
-    border-radius: 10px;
+    width: 16rem;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.sedans-content {
+    padding: 50px;
+}
+
+.title {
+    margin-top: 5vh;
+}
+
+.text {
+    margin-top: 5vh;
 }
 
 .suvs-container {
     background-color: var(--Dark-cyan);
     grid-column: 2;
-    height: 50vh;
-    border-radius: 10px;
+    width: 16rem;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.suvs-content {
+    padding: 50px;
 }
 
 .luxury-container {
     background-color: var(--Very-dark-cyan);
     grid-column: 3;
-    height: 50vh;
-    border-radius: 10px;
+    width: 16rem;
+    height: 70vh;
+    margin: 0 auto;
+}
+
+.luxury-content {
+    padding: 50px;
 }
 
 .attribution { 
