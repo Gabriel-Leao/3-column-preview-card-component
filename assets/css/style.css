@@ -58,22 +58,17 @@ h1 {
 
 .grid-layout {
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(3 1fr);
-    margin-top: 20vh;
+    margin-top: 10vh;
     max-width: 48rem;
     max-height: 70vh;
 }
 
 .sedans-container {
     background-color: var(--Bright-orange);
-    grid-column: 1;
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
     padding: 50px;
-    border-top-left-radius: 20px;
-    border-bottom-left-radius: 20px;
 }
 
 #sedan-button a {
@@ -88,7 +83,6 @@ h1 {
 
 .suvs-container {
     background-color: var(--Dark-cyan);
-    grid-column: 2;
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
@@ -107,13 +101,10 @@ h1 {
 
 .luxury-container {
     background-color: var(--Very-dark-cyan);
-    grid-column: 3;
     width: 16rem;
     height: 70vh;
     margin: 0 auto;
     padding: 50px;
-    border-top-right-radius: 20px;
-    border-bottom-right-radius: 20px;
 }
 
 #luxury-button a {
@@ -130,9 +121,45 @@ h1 {
     font-size: 11px;
     text-align: center;
     color: black;
+    margin-top: 140vh;
 }
 
 .attribution a {
     text-decoration: none;
     color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 850px) {
+    .grid-layout {
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(3 1fr);
+        margin-top: 20vh;
+        max-width: 48rem;
+        max-height: 70vh;
+    }
+
+    .sedans-container {
+        grid-column: 1;
+        /* border-top-right-radius: 20px;
+        border-top-left-radius: 20px; */
+        border-top-left-radius: 20px;
+        border-bottom-left-radius: 20px;
+    }
+
+    .suvs-container {
+        grid-column: 2;
+    }
+
+    .luxury-container {
+        grid-column: 3;
+        /* border-bottom-left-radius: 20px;
+        border-bottom-right-radius: 20px; */
+        border-top-right-radius: 20px;
+        border-bottom-right-radius: 20px;
+    }
+
+    .attribution {
+        margin-top: 0;
+    }
 }
