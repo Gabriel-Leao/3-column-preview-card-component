@@ -30,17 +30,6 @@ h1 {
     color: var(--Very-light-gray);
 }
 
-.sedans-container {
-    background-color: var(--Bright-orange);
-    grid-column: 1;
-    width: 16rem;
-    height: 70vh;
-    margin: 0 auto;
-}
-
-.sedans-content {
-    padding: 50px;
-}
 
 .title {
     margin-top: 5vh;
@@ -48,6 +37,34 @@ h1 {
 
 .text {
     margin-top: 5vh;
+}
+
+.button {
+    padding: 8px;
+    height: 40px;
+    width: 150px;
+    text-align: center;
+    background-color: var(--Transparent-white);
+    border-radius: 50px;
+    margin-top: 10vh;
+}
+
+.sedans-container {
+    background-color: var(--Bright-orange);
+    grid-column: 1;
+    width: 16rem;
+    height: 70vh;
+    margin: 0 auto;
+    display: flex;
+}
+
+.sedans-content {
+    padding: 50px;
+}
+
+#sedan-button a {
+    color: var(--Bright-orange);
+    text-decoration: none;
 }
 
 .suvs-container {
@@ -62,6 +79,11 @@ h1 {
     padding: 50px;
 }
 
+#suvs-button a {
+    color: var(--Dark-cyan);
+    text-decoration: none;
+}
+
 .luxury-container {
     background-color: var(--Very-dark-cyan);
     grid-column: 3;
@@ -72,6 +94,11 @@ h1 {
 
 .luxury-content {
     padding: 50px;
+}
+
+#luxury-button a {
+    color: var(--Very-dark-cyan);
+    text-decoration: none;
 }
 
 .attribution { 
