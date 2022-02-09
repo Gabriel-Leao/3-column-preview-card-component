@@ -1,0 +1,49 @@
+:root {
+    --Bright-orange: hsl(31, 77%, 52%);
+    --Dark-cyan: hsl(184, 100%, 22%);
+    --Very-dark-cyan: hsl(179, 100%, 13%);
+    --Transparent-white: hsla(0, 0%, 100%, 0.75);
+    --Very-light-gray: hsl(0, 0%, 95%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    font-size: 15px;
+    color: var(--Transparent-white);
+}
+
+h1 {
+    font-family: 'Lexend Deca', sans-serif;
+    font-weight: 400;
+    color: var(--Very-light-gray);
+}
+
+.sedans-container {
+    background-color: var(--Bright-orange);
+}
+
+.suvs-container {
+    background-color: var(--Dark-cyan);
+}
+
+.luxury-container {
+    background-color: var(--Very-dark-cyan);
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    color: black;
+}
+
+.attribution a {
+    text-decoration: none;
+    color: hsl(228, 45%, 44%);
+}
