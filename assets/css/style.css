@@ -17,6 +17,8 @@ body {
     font-family: 'Big Shoulders Display', cursive;
     font-weight: 400;
     color: var(--Transparent-white);
+    display: flex;
+    min-height: 100vh;
 }
 
 img {
@@ -27,6 +29,7 @@ img {
 h1 {
     font-family: 'Lexend Deca', sans-serif;
     font-weight: 700;
+    text-transform: uppercase;
     color: var(--Very-light-gray);
 }
 
@@ -58,6 +61,8 @@ h1 {
 
 .grid-layout {
     margin: 0 auto;
+    justify-content: center;
+    align-items: center;
     margin-top: 10vh;
     max-width: 48rem;
     max-height: 60vh;
@@ -132,9 +137,11 @@ h1 {
     color: hsl(228, 45%, 44%);
 }
 
-@media (min-width: 850px) {
+@media (min-width: 500px) {
     .grid-layout {
         margin: 0 auto;
+        justify-content: center;
+        align-items: center;
         display: grid;
         grid-template-columns: repeat(3 1fr);
         margin-top: 20vh;
